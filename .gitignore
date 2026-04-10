@@ -5,6 +5,11 @@ __pycache__/
 
 # Results
 *.json
+# 分析結果フォルダを除外（末尾が _analysis のフォルダやデフォルトの analysis_output）
+*_analysis/
+analysis_output/
+*.csv
+*.png
 
 # Credentials (token protection)
 # もしトークンを環境変数などにする場合は、ここに追加
