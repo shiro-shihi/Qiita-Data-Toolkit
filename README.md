@@ -9,6 +9,8 @@
 
 Qiita ユーザーの記事取得・検索・分析・可視化を行う CLI ツール群です。
 
+解説記事を書きました：[Qiita API v2 を活用した記事取得・分析ツールの実装詳解（Python + pandas + matplotlib）](https://qiita.com/Shiro_Shihi/items/67b1f52d200b9eb1df1b)
+
 [English README is here](README_en.md)
 
 本プロジェクトは個人の開発・分析用途で作成したものです。必要に応じて Fork やコードの改変を行っていただいて構いませんが、利用にあたっては [MIT License](LICENSE.md) に基づき、著作権表示およびライセンス表示を維持してください。
