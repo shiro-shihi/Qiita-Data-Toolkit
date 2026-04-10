@@ -1,6 +1,36 @@
 # Qiita Data Toolkit
 
-指定した Qiita ユーザーの記事一覧や、特定の条件に合致する記事を JSON 形式で出力するスクリプト群です。
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Qiita API](https://img.shields.io/badge/Qiita%20API-v2-active)
+![Libraries](https://img.shields.io/badge/dependencies-3-blue)
+![Repo Size](https://img.shields.io/github/repo-size/shiro-shihi/Qiita-Data-Toolkit)
+![Last Commit](https://img.shields.io/github/last-commit/shiro-shihi/Qiita-Data-Toolkit)
+
+Qiita ユーザーの記事取得・検索・分析・可視化を行う CLI ツール群です。
+
+[English README is here](README_en.md)
+
+本プロジェクトは個人の開発・分析用途で作成したものです。必要に応じて Fork やコードの改変を行っていただいて構いませんが、利用にあたっては [MIT License](LICENSE.md) に基づき、著作権表示およびライセンス表示を維持してください。
+
+## 想定ユースケース
+
+- 人気記事の傾向分析
+- 技術タグごとのトレンド調査
+- Qiita投稿戦略の分析
+- データ分析の練習素材として利用
+
+## プロジェクト構成
+
+```text
+.
+├── analyze.py        # 取得済みデータの集計・グラフ化
+├── search.py         # 条件を指定した記事検索と取得
+├── users.py          # 特定ユーザーの記事一覧取得
+├── requirements.txt  # 依存ライブラリ一覧
+├── LICENSE.md        # MIT ライセンス詳細
+└── README.md         # 本ファイル
+```
 
 ## セットアップ
 
