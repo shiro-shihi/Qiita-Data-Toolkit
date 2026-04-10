@@ -1,0 +1,15 @@
+# Python outputs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Results
+*.json
+
+# Credentials (token protection)
+# もしトークンを環境変数などにする場合は、ここに追加
+.env
+
+# IDEs
+.vscode/
+.idea/
